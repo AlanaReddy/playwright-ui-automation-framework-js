@@ -13,7 +13,7 @@ I developed this project while learning Playwright automation through a structur
 
 Rather than focusing only on a single end-to-end test, I used this repository to explore different areas of automation testing, including API testing, browser automation, network interception, request mocking, reporting, and framework design.
 
-This project continues to serve as my personal automation practice framework as I learn and apply new Playwright concepts.
+This repository continues to evolve as I expand my Playwright automation skills by implementing additional automation concepts and framework enhancements.
 ## Technologies Used
 
 | Category | Technology |
@@ -66,7 +66,7 @@ These modules demonstrate:
 - Hidden Elements
 - Cucumber (BDD)
 
-## What this Framework Covers
+## Framework Capabilities
 
 This project includes practical implementations of Playwright automation concepts through a reusable Page Object Model framework and dedicated learning modules.
 
@@ -97,7 +97,7 @@ This project includes practical implementations of Playwright automation concept
 - Cucumber (BDD) integration
 - Playwright HTML Reports
 - Allure Reports
-- GitHub Actions workflow for automated test    execution
+- GitHub Actions workflow for automated test execution
 
 ## Project Structure
 
@@ -129,14 +129,12 @@ Ensure the following are installed before running the project:
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-```
+git clone https://github.com/AlanaReddy/playwright-ui-automation-framework-js.git```
 
 Navigate to the project folder:
 
 ```bash
-cd playwright-ui-automation-framework
-```
+cd playwright-ui-automation-framework-js```
 
 Install dependencies:
 
@@ -196,8 +194,7 @@ The project includes a GitHub Actions workflow that automatically executes Playw
 
 ![GitHub Actions](docs/images/github-actions.png)
 
-## AI-Assisted Learning
-
+## AI-Assisted Development
 While developing this project, I used AI as a learning assistant to deepen my understanding of Playwright and automation framework design.
 
 AI was used to:
@@ -215,11 +212,22 @@ All generated suggestions were reviewed, tested and adapted before being incorpo
 
 **Alana Reddy Almawar**
 
-## Author
-
-**Alana Reddy**
-
 Software Test Engineer with experience in Manual Testing and currently expanding expertise in Playwright automation using JavaScript, API testing, and modern automation framework design.
 
-GitHub:
+GitHub Profile:
 https://github.com/AlanaReddy
+
+Project Repository:
+https://github.com/AlanaReddy/playwright-ui-automation-framework-js
+
+## Key Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Designing a reusable automation framework using the Page Object Model (POM)
+- Developing maintainable Playwright test scripts using JavaScript
+- Implementing API testing and network interception
+- Generating and analyzing Playwright and Allure reports
+- Configuring GitHub Actions for automated test execution
+- Applying Git and GitHub for version control and collaborative development
+- Leveraging AI as a learning assistant to accelerate understanding of modern automation testing concepts
