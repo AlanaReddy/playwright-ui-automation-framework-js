@@ -1,5 +1,7 @@
 # Playwright UI Automation Framework (JavaScript)
 
+[![Playwright Tests](https://github.com/AlanaReddy/playwright-ui-automation-framework-js/actions/workflows/playwright.yml/badge.svg)](https://github.com/AlanaReddy/playwright-ui-automation-framework-js/actions/workflows/playwright.yml)
+
 ## Overview
 
 This repository contains a Playwright automation framework developed using JavaScript to strengthen my automation testing skills through hands-on implementation.
