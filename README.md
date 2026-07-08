@@ -30,6 +30,42 @@ This project continues to serve as my personal automation practice framework as 
 | IDE | Visual Studio Code |
 | Professional QA Tools | Jira, Zephyr, Confluence|
 
+## Repository Contents
+
+This repository is organised into two logical sections to demonstrate both framework development and practical Playwright learning.
+
+### 1. End-to-End Automation Framework
+
+A reusable automation framework built using the Page Object Model (POM) design pattern for automating an e-commerce application.
+
+Framework components include:
+
+- Page Object Model (POM)
+- Page Object Manager
+- Login, Dashboard, Cart and Order page classes
+- JSON-based test data
+- Reusable utility methods
+- End-to-end order placement workflow
+- HTML and Allure reporting
+
+### 2. Playwright Learning Modules
+
+Alongside the framework, this repository contains individual practice scripts developed while learning Playwright concepts.
+
+These modules demonstrate:
+
+- API Testing
+- Network Request & Response Interception
+- Request Mocking
+- Browser Context Handling
+- Child Window Handling
+- Calendar Automation
+- Modern Playwright Locators
+- File Upload & Download
+- Mouse Hover
+- Hidden Elements
+- Cucumber (BDD)
+
 ## What this Framework Covers
 
 This project includes practical implementations of Playwright automation concepts through a reusable Page Object Model framework and dedicated learning modules.
@@ -133,6 +169,33 @@ Run Cucumber tests:
 ```bash
 npx cucumber-js
 ```
+## Test Reports
+
+The framework supports multiple reporting options to help analyze test execution results, identify failures, and assist with debugging.
+
+### Playwright HTML Report
+
+Playwright's built-in HTML report provides a detailed summary of test execution, including passed and failed tests, execution time, error messages, and trace information.
+
+![Playwright HTML Report](docs/images/playwright-report.png)
+![Playwright HTML Report](docs/images/calendar-validations.png)
+
+---
+
+### Allure Report
+
+Allure Report provides an interactive view of test execution with detailed test results, execution history, and rich reporting for easier analysis.
+
+![Allure Report](docs/images/allure-report.png)
+
+---
+
+### GitHub Actions
+
+The project includes a GitHub Actions workflow that automatically executes Playwright tests whenever code is pushed to the repository, enabling continuous integration and automated validation.
+
+![GitHub Actions](docs/images/github-actions.png)
+
 ## AI-Assisted Learning
 
 While developing this project, I used AI as a learning assistant to deepen my understanding of Playwright and automation framework design.
@@ -152,8 +215,11 @@ All generated suggestions were reviewed, tested and adapted before being incorpo
 
 **Alana Reddy Almawar**
 
-Software Test Engineer | Manual QA | Learning Playwright Automation
+## Author
 
-LinkedIn: (link)
+**Alana Reddy**
 
-GitHub: (link)
+Software Test Engineer with experience in Manual Testing and currently expanding expertise in Playwright automation using JavaScript, API testing, and modern automation framework design.
+
+GitHub:
+https://github.com/AlanaReddy
